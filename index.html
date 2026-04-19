@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Naomi Urban</title>
-  </head>
-  <body style="margin:0; background:black; color:white;">
-    <h1 style="padding:20px;">Naomi Urban</h1>
-
-    <img src="https://via.placeholder.com/800" style="width:100%;">
-    <img src="https://via.placeholder.com/800" style="width:100%;">
-  </body>
+<head>
+  <title>Naomi Urban</title>
+  <style>
+    body { margin:0; font-family: sans-serif; background:#111; color:white; }
+    .gallery { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    img { width:100%; height:auto; }
+  </style>
+</head>
+<body>
+  <h1 style="padding:20px;">Naomi Urban</h1>
+  <div class="gallery">
+    <img src="your-image-1.jpg">
+    <img src="your-image-2.jpg">
+  </div>
+</body>
 </html>
